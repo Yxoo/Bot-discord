@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<body>
+    <div style="border: 1px solid black">
+        <h1>Vous êtes en train de miner dans la phase <a style="color:#828585";>(nom de la phase)</a>.</h1>
+        <h2>Les différents drops possibles sont :</h2>
+        <table>
+            <tr>
+                <td>Dirt</td>
+                <td>Cobble</td>
+                <td>Brich log</td>
+                <td>Oak log</td>
+            </tr>
+        </table>
+        <a style="color: #828585;">(En fonction de la phase le drops ne sont pas les mêmes) (voir doc phases)</a>
+        <p>Les niveaux de gemmes disponibles sont : <span style="color: red;">0, 1, 2</span> (en fonction de la phase les rangs de gemmes ne sont pas les memes) (voir doc phases)</p>
+        <p>Avec votre pioches actuelle vous casser <span style="color: red;">x</span> blocs par heure</p>
+        <p>Il reste <span style="color: red;">k</span> utilisations sur votre pioche</p>
+    </div>
+    <button onclick="document.location='Inventory.html'">Inventaire</button>
+    <button onclick="document.location='Village.html'">Phases</button>
+    <button onclick="myFunction()">Evenements</button>
+    <button onclick="document.location='Village.html'">Village</button>
+
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</body>
+
+<style>
+    body{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 20%;
+        padding-right: 20%;
+        background-color: rgb(39, 39, 39);
+        color: rgb(255, 255, 255);
+    }
+    button{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    table, td {
+        border:1px solid black;
+        color: #828585;
+        text-align: center;
+    }
+    table{
+        margin: auto;
+    }
+</style>
+
+<script>
+    function myFunction() {
+      alert("Il n'y a pas de boss ni de coffre pour l'instant");
+    }
+</script>
